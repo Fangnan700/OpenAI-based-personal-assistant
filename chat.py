@@ -49,7 +49,7 @@ print(">>> 好啦！告诉我你的问题吧！\n")
 
 while True:
     content = input(">>> 写在这里: ")
-    if content == "‘#’":
+    if content == "'#'":
         print("嘿嘿～没想到是‘#’吧！拜拜～")
         exit(0)
     response = openai.Completion.create(
